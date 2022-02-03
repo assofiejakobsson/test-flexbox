@@ -1,0 +1,12 @@
+body {
+
+}
+
+.continer {
+    display: flex;
+}
+
+.first-block {
+    width: 468px;
+    height: 160px;
+}
