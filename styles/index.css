@@ -3,42 +3,47 @@ body {
 }
 
 element.style {
+    display: flex;
     justify-content: center;
 }
 
 .continer {
+    min-height: 100vh;
     display: flex;
-    position: relative;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     width: 1152px;
     height: 700px;
     background-color: #370617;
 }
 
 .first-block {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
     width: 468px;
     height: 160px;
-    left: 98px;
-    top: 90px;
-    position: absolute;
-    background-color: #F48C06
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: #F48C06;
 }
 
 .reck-1 {
     width: 78px;
     height: 78px;
-    left: 117px;
-    top: 153px;
-    position: absolute;
     background-color: #9D0208;
     border-radius: 4px;
+    margin-top: 20px;
+    margin-left: 20px;
 }
 
 .reck-2 {
     width: 78px;
     height: 78px;
-    left: 215px;
-    top: 153px;
-    position: absolute;
+    margin-top: 20px;
+    margin-left: 20px;
     background: #9D0208;
     border-radius: 4px;
 }
@@ -46,28 +51,29 @@ element.style {
 .reck-3 {
     width: 78px;
     height: 78px;
-    left: 313px;
-    top: 153px;
-    position: absolute;
+    margin-top: 20px;
+    margin-left: 20px;
     background: #9D0208;
     border-radius: 4px;
 }
 
 .second-block {
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
     width: 468px;
     height: 160px;
-    left: 586px;
-    top: 90px;
-    position: absolute;
+    margin-left: 20px;
+    margin-top: 20px;
     background-color: #F48C06
 }
 
 .reck-4 {
     width: 78px;
     height: 120px;
-    left: 683px;
-    top: 110px;
-    position: absolute;
+    margin-left: 20px;
+    margin-top: 20px;
     background: #9D0208;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
     border-radius: 4px;
@@ -76,9 +82,8 @@ element.style {
 .reck-5 {
     width: 78px;
     height: 120px;
-    left: 781px;
-    top: 110px;
-    position: absolute;
+    margin-left: 20px;
+    margin-top: 20px;
     background: #9D0208;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
     border-radius: 4px;
@@ -87,29 +92,30 @@ element.style {
 .reck-6 {
     width: 78px;
     height: 120px;
-    left: 879px;
-    top: 110px;
-    position: absolute;
+    margin-left: 20px;
+    margin-top: 20px;
     background: #9D0208;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
     border-radius: 4px;
 }
 
 .third-block {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
     width: 468px;
     height: 160px;
-    left: 98px;
-    top: 270px;
-    position: absolute;
+    margin-left: 20px;
+    margin-top: 20px;
     background-color: #F48C06
 }
 
 .reck-7 {
     width: 78px;
     height: 78px;
-    left: 272px;
-    top: 311px;
-    position: absolute;
+    margin-left: 20px;
+    margin-top: 20px;
     background: #9D0208;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
     border-radius: 4px;
@@ -118,9 +124,8 @@ element.style {
 .reck-8 {
     width: 78px;
     height: 78px;
-    left: 370px;
-    top: 311px;
-    position: absolute;
+    margin-left: 20px;
+    margin-top: 20px;
     background: #9D0208;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
     border-radius: 4px;
@@ -129,29 +134,31 @@ element.style {
 .reck-9 {
     width: 78px;
     height: 78px;
-    left: 468px;
-    top: 311px;
-    position: absolute;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
     background: #9D0208;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
     border-radius: 4px;
 }
 
 .fourth-block {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
     width: 468px;
     height: 160px;
-    left: 586px;
-    top: 270px;
-    position: absolute;
+    margin-left: 20px;
+    margin-top: 20px;
     background-color: #F48C06
 }
 
 .reck-10 {
     width: 78px;
     height: 78px;
-    left: 606px;
-    top: 290px;
-    position: absolute;
+    margin-top: 20px;
+    margin-left: 20px;
     background: #9D0208;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
     border-radius: 4px;
@@ -160,50 +167,51 @@ element.style {
 .reck-11 {
     width: 78px;
     height: 78px;
-    left: 781px;
-    top: 290px;
-    position: absolute;
+    margin-top: 20px;
+    margin-left: 20px;
     background: #9D0208;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
     border-radius: 4px;
 }
 
 .reck-12 {
+    align-self: flex-end;
     width: 78px;
     height: 78px;
-    left: 956px;
-    top: 332px;
-    position: absolute;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
     background: #9D0208;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
     border-radius: 4px;
 }
 
 .fifth-block {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
     width: 468px;
     height: 160px;
-    left: 98px;
-    top: 450px;
-    position: absolute;
+    margin-left: 20px;
+    margin-top: 20px;
     background-color: #F48C06
 }
 
 .reck-13 {
     width: 78px;
     height: 120px;
-    left: 161px;
-    top: 470px;
-    position: absolute;
+    margin-top: 20px;
+    margin-left: 20px;
     background: #9D0208;
     border-radius: 4px;
 }
 
 .text-1 {
-    position: absolute;
+    margin-top: 20px;
+    margin-left: 20px;
     width: 54px;
     height: 14px;
-    left: 173px;
-    top: 504px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -215,19 +223,15 @@ element.style {
 .reck-14 {
     width: 78px;
     height: 64px;
-    left: 293px;
-    top: 493px;
-    position: absolute;
+    margin-top: 20px;
+    margin-left: 20px;
     background: #9D0208;
     border-radius: 4px;
 }
 
 .text-2 {
-    position: absolute;
     width: 54px;
     height: 14px;
-    left: 305px;
-    top: 504px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -239,19 +243,16 @@ element.style {
 .reck-15 {
     width: 78px;
     height: 120px;
-    left: 425px;
-    top: 470px;
-    position: absolute;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
     background: #9D0208;
     border-radius: 4px;
 }
 
 .text-3 {
-    position: absolute;
     width: 54px;
     height: 14px;
-    left: 437px;
-    top: 504px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -261,20 +262,22 @@ element.style {
 }
 
 .sixth-block {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
     width: 468px;
     height: 160px;
-    left: 586px;
-    top: 450px;
-    position: absolute;
+    margin-left: 20px;
+    margin-top: 20px;
     background-color: #F48C06
 }
 
 .reck-16 {
     width: 78px;
     height: 78px;
-    left: 644px;
-    top: 491px;
-    position: absolute;
+    margin-top: 20px;
+    margin-left: 20px;
     background: #9D0208;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
     border-radius: 4px;
@@ -283,9 +286,8 @@ element.style {
 .reck-17 {
     width: 156px;
     height: 78px;
-    left: 742px;
-    top: 491px;
-    position: absolute;
+    margin-top: 20px;
+    margin-left: 20px;
     background: #9D0208;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
     border-radius: 4px;
@@ -294,9 +296,9 @@ element.style {
 .reck-18 {
     width: 78px;
     height: 78px;
-    left: 918px;
-    top: 491px;
-    position: absolute;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
     background: #9D0208;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
     border-radius: 4px;
