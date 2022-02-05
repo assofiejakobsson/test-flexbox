@@ -11,7 +11,7 @@ element.style {
     min-height: 100vh;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     width: 1152px;
     height: 700px;
@@ -66,6 +66,7 @@ element.style {
     height: 160px;
     margin-left: 20px;
     margin-top: 20px;
+
     background-color: #F48C06
 }
 
@@ -146,7 +147,7 @@ element.style {
     display: inline-flex;
     flex-wrap: wrap;
     align-items: flex-start;
-    justify-content: space-around;
+    justify-content: space-evenly;
     width: 468px;
     height: 160px;
     margin-left: 20px;
@@ -205,11 +206,17 @@ element.style {
     margin-left: 20px;
     background: #9D0208;
     border-radius: 4px;
+    display: inline-flex;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
 }
 
-.text-1 {
+/*.text-1 {
     margin-top: 20px;
-    margin-left: 20px;
     width: 54px;
     height: 14px;
     font-family: 'Roboto', sans-serif;
@@ -218,7 +225,7 @@ element.style {
     font-size: 12px;
     line-height: 14px;
     color: #FFFFFF;
-}
+}*/
 
 .reck-14 {
     width: 78px;
@@ -227,9 +234,17 @@ element.style {
     margin-left: 20px;
     background: #9D0208;
     border-radius: 4px;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+
 }
 
-.text-2 {
+/*.text-2 {
     width: 54px;
     height: 14px;
     font-family: 'Roboto', sans-serif;
@@ -238,7 +253,7 @@ element.style {
     font-size: 12px;
     line-height: 14px;
     color: #FFFFFF;
-}
+}*/
 
 .reck-15 {
     width: 78px;
@@ -248,9 +263,17 @@ element.style {
     margin-right: 20px;
     background: #9D0208;
     border-radius: 4px;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+   
 }
 
-.text-3 {
+/* .text-3 { 
     width: 54px;
     height: 14px;
     font-family: 'Roboto', sans-serif;
@@ -258,8 +281,8 @@ element.style {
     font-weight: normal;
     font-size: 12px;
     line-height: 14px;
-    color: #FFFFFF;
-}
+    color: #FFFFFF; 
+}*/
 
 .sixth-block {
     display: inline-flex;
